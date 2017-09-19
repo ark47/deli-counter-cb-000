@@ -12,7 +12,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  array<< name
+  array << name
   x = (array.rindex(name) + 1)
   puts "Welcome, #{name}. You are number #{x} in line."
 end
